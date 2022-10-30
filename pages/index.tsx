@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { CoupleImageContainer } from '../components/CoupleImageContainer'
 import { GreetingContainer } from '../components/GreetingContainer'
 import { CountDownContainer } from '../components/CountDownContainer'
+import { ScheduleContainer } from '../components/ScheduleContainer'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <CoupleImageContainer />
       <GreetingContainer />
       <CountDownContainer />
+      <ScheduleContainer />
     </Layout>
   )
 }
